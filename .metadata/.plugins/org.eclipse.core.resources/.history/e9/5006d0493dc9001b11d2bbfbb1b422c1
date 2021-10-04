@@ -1,0 +1,17 @@
+package practice;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		
+		
+		int a[] = {4,5,5,5,4,6,6,9,4};
+			
+		// challenge: print the number of occurences of each number in the array
+		// e.g. 4 occurs 3 times; 5 occurs 3 times, 6 occurs twice, 9 occurs once.
+		
+		System.out.println(a.length);
+
+	}
+
+}

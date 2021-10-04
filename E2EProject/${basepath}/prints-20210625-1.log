@@ -1,0 +1,7 @@
+14:08:47.612 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+14:08:48.254 [main] INFO  Academy.HomePage - 3. Navigated to login page
+14:08:48.882 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+14:08:49.000 [main] INFO  Academy.HomePage - 5. Closed browser window
+14:10:26.292 [main] INFO  Academy.ValidateTitle - 1 Driver initialised
+14:10:30.194 [main] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+14:10:30.310 [main] INFO  Academy.ValidateTitle - 3. Validated Text on Home Page

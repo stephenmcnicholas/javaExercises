@@ -1,0 +1,52 @@
+package banking;
+
+import java.util.List;
+
+public class BankingApp {
+
+	public static void main(String[] args) {
+		
+		String file = "C:\\Users\\stephen.mcnicholas\\eclipse-workspace\\ExampleProjects\\resources\\NewBankAccounts.csv";
+		
+		/*
+		Checking chk1 = new Checking("Stephen McNicholas" , "123456789",1500);
+		Savings sav1 = new Savings("Finnbar McNicholas", "981765411", 10000);
+		
+		chk1.showInfo();
+		sav1.showInfo();
+		// read CSV file
+		
+		// create new accts based on that data
+		chk1.deposit(500);
+		chk1.transfer("Kat", 250);
+		chk1.withdrawal(200);
+
+		sav1.deposit(1000);
+		sav1.transfer("Brokerage", 2000);
+		sav1.withdrawal(8000);
+		
+		chk1.compound();
+		sav1.compound();
+		*/
+	
+		List<String[]> newCustomers = utils.CSV.read(file);
+		int counter = 0;
+		for (String[] customer : newCustomers) {
+			counter++;
+			System.out.println("##############\nNew Account: " + counter);
+			if(customer[2].equals("Savings")) {
+				
+				Savings sav1 = new Savings(customer[0], customer[1],customer[3]);
+			}
+			else if(customer[2].equals("Checking")){
+				Checking chk1 = new Checking(customer[0], customer[1],customer[3]);
+			}
+			else {
+				System.out.println("Error: Unrecognised account type");
+			}
+			
+			
+		}	
+	}
+
+}

@@ -1,0 +1,13 @@
+10:25:30.045 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Navigated to homepage
+10:25:30.259 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+10:25:30.755 [TestNG-tests-2] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+10:25:30.866 [TestNG-tests-2] INFO  Academy.ValidateTitle - 4. Validated Header Text on Home Page
+10:25:30.958 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+10:25:32.420 [TestNG-tests-2] INFO  Academy.ValidateTitle - 5. Closed Browser window
+10:25:32.639 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Closed browser window
+10:25:32.773 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+10:25:33.763 [TestNG-tests-3] INFO  Academy.HomePage - 4. Unrestricted User
+10:25:36.278 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+10:25:36.769 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+10:25:37.240 [TestNG-tests-3] INFO  Academy.HomePage - 4. Restricted User
+10:25:37.955 [TestNG-tests-3] INFO  Academy.HomePage - 5. Closed browser window

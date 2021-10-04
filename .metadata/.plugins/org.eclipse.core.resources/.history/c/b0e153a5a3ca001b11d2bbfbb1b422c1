@@ -1,0 +1,40 @@
+package practice;
+
+import java.awt.Window;
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaStreamsPractice {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\stephen.mcnicholas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();  
+		driver.get("https://rahulshettyacademy.com/seleniumPractise");
+
+		// use java streams to verify if the items in the table on the "offers" page (accessed via Top Deals link) are ordered alphabetically when the header row is clicked
+		
+		driver.findElement(By.cssSelector("a[href='#/offers']")).click();
+
+		Thread.sleep(2000);
+		Set<String> windows = driver.getWindowHandles();
+		Iterator<String> it = windows.iterator();
+		String parentId = it.next();
+		String childId = it.next();
+		driver.switchTo().window(childId);
+		Thread.sleep(2000);
+		
+		driver.findElement(By.className("sort-icon.sort-ascending")).click();
+		
+		
+		Thread.sleep(3000);
+		driver.quit();
+		
+		
+	}
+
+}

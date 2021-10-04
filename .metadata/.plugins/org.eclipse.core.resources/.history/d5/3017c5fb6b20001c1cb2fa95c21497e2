@@ -1,0 +1,36 @@
+package studentDBApp;
+
+public class Student {
+
+	private int numberOfStudents;
+	private int studentID;
+	private int balance = 0;
+	private int courseFee = 600;
+	private int coursesEnrolled = 0;
+	
+	// constructor
+	public Student(int numStudents)
+		// how many new students to add
+		// generate unique studentID, starting with grade level
+		
+	
+	// enroll in courses (history, maths, english, chemisty, compSci)
+		// check balance is sufficient
+		// deduct fee from balance
+	
+	
+	
+	// paytuition 
+	public void payTuitionFees(int fees) {
+		balance = balance + fees;
+	}
+	
+	// view balance - get method
+	public int getBalance() {
+		return balance;
+	}
+	
+	
+	// showInfo, incl name, ID, courses enrolled, balance
+	
+}

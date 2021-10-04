@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-01T15:17:04 BST" name="Suite" finished-at="2021-07-01T15:17:18 BST" duration-ms="14522">
+    <groups>
+    </groups>
+    <test started-at="2021-07-01T15:17:04 BST" name="Validating the Navigation Bar" finished-at="2021-07-01T15:17:13 BST" duration-ms="9217">
+      <class name="Automation.E2EProjectTwo.ValidateNavBar">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:Automation.E2EProjectTwo.ValidateNavBar@788fcafb]" started-at="2021-07-01T15:17:04 BST" name="initialise" finished-at="2021-07-01T15:17:12 BST" duration-ms="8396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="validateNavigationBar()[pri:0, instance:Automation.E2EProjectTwo.ValidateNavBar@788fcafb]" started-at="2021-07-01T15:17:12 BST" name="validateNavigationBar" finished-at="2021-07-01T15:17:12 BST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Automation.E2EProjectTwo.ValidateNavBar@788fcafb]" started-at="2021-07-01T15:17:13 BST" name="teardown" finished-at="2021-07-01T15:17:13 BST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.E2EProjectTwo.ValidateNavBar -->
+    </test> <!-- Validating the Navigation Bar -->
+    <test started-at="2021-07-01T15:17:04 BST" name="Validating the Page Title" finished-at="2021-07-01T15:17:14 BST" duration-ms="10218">
+      <class name="Automation.E2EProjectTwo.ValidateTitle">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:Automation.E2EProjectTwo.ValidateTitle@3fffff43]" started-at="2021-07-01T15:17:04 BST" name="initialise" finished-at="2021-07-01T15:17:13 BST" duration-ms="8994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="validateHeader()[pri:0, instance:Automation.E2EProjectTwo.ValidateTitle@3fffff43]" started-at="2021-07-01T15:17:13 BST" name="validateHeader" finished-at="2021-07-01T15:17:13 BST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method signature="validatePageText()[pri:0, instance:Automation.E2EProjectTwo.ValidateTitle@3fffff43]" started-at="2021-07-01T15:17:13 BST" name="validatePageText" finished-at="2021-07-01T15:17:13 BST" duration-ms="159" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Automation.E2EProjectTwo.ValidateTitle.validatePageText(ValidateTitle.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageText -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Automation.E2EProjectTwo.ValidateTitle@3fffff43]" started-at="2021-07-01T15:17:14 BST" name="teardown" finished-at="2021-07-01T15:17:14 BST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.E2EProjectTwo.ValidateTitle -->
+    </test> <!-- Validating the Page Title -->
+    <test started-at="2021-07-01T15:17:04 BST" name="Validating the User Logins" finished-at="2021-07-01T15:17:18 BST" duration-ms="14522">
+      <class name="Automation.E2EProjectTwo.HomePage">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:Automation.E2EProjectTwo.HomePage@4678a2eb]" started-at="2021-07-01T15:17:04 BST" name="initialise" finished-at="2021-07-01T15:17:07 BST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="validateUserLogins(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.E2EProjectTwo.HomePage@4678a2eb]" started-at="2021-07-01T15:17:07 BST" name="validateUserLogins" data-provider="getData" finished-at="2021-07-01T15:17:15 BST" duration-ms="8195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unrestrictedUser@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwd123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unrestricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLogins -->
+        <test-method signature="validateUserLogins(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.E2EProjectTwo.HomePage@4678a2eb]" started-at="2021-07-01T15:17:16 BST" name="validateUserLogins" data-provider="getData" finished-at="2021-07-01T15:17:18 BST" duration-ms="2455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RestrictedUser@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwd456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLogins -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Automation.E2EProjectTwo.HomePage@4678a2eb]" started-at="2021-07-01T15:17:18 BST" name="teardown" finished-at="2021-07-01T15:17:18 BST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.E2EProjectTwo.HomePage -->
+    </test> <!-- Validating the User Logins -->
+  </suite> <!-- Suite -->
+</testng-results>

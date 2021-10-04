@@ -1,0 +1,32 @@
+package banking;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class BankingApp {
+
+	public static void main(String[] args) {
+		
+		String file = "C:\\Users\\stephen.mcnicholas\\eclipse-workspace\\ExampleProjects\\resources\\NewBankAccounts.csv";
+		
+		List<Account> accounts = new LinkedList<Account>();
+		
+		List<String[]> newCustomers = utils.CSV.read(file);
+		int counter = 0;
+		for (String[] customer : newCustomers) {
+			counter++;
+			System.out.println("New Account: " + counter);
+			if(customer[2].equals("Savings")) {
+				
+				accounts.add(new Savings(customer[0], customer[1],customer[3]));
+			}
+			else if(customer[2].equals("Checking")){
+				accounts.add(new Checking(customer[0], customer[1],customer[3]));
+			}
+			else {
+				System.out.println("Error: Unrecognised account type");
+			}
+		}	
+	}
+
+}

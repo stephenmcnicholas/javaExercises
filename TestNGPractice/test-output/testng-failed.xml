@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyOtherSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <test thread-count="5" name="AllTestsInPackageExample(failed)">
+    <classes>
+      <class name="test.German">
+        <methods>
+          <include name="LanguageQueue"/>
+          <include name="GreetingGer"/>
+          <include name="QuestionGer"/>
+          <include name="Introduction"/>
+        </methods>
+      </class> <!-- test.German -->
+      <class name="test.English">
+        <methods>
+          <include name="FarewellEng"/>
+          <include name="ParamOverrideTest"/>
+        </methods>
+      </class> <!-- test.English -->
+    </classes>
+  </test> <!-- AllTestsInPackageExample(failed) -->
+</suite> <!-- Failed suite [MyOtherSuite] -->

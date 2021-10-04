@@ -1,0 +1,42 @@
+package banking;
+
+import java.util.Random;
+
+public abstract class Account implements IBaseRate{
+
+	private String firstName;
+	private String surname;
+	private String sSN;
+	private float balance;
+	private float openingDeposit;
+	protected String acctNumber;
+	private double rate;
+	private static int counter = 10000;
+	
+	public Account(String name, String sSN, float openingDeposit) {
+		this.surname = name;
+		this.sSN = sSN;
+		this.openingDeposit = openingDeposit;
+		acctNumber = setAccountNumber();
+	}
+	
+	private String setAccountNumber() {
+		String lastTwoSSN = sSN.substring(sSN.length()-2);
+		String randomThreeDigits = Integer.toString((int) (Math.random() * Math.pow(10,3)));
+		String uniqueID = Integer.toString(counter);
+		counter++;		
+		return lastTwoSSN + uniqueID + randomThreeDigits;
+	}
+	
+	private void deposit(int value) {
+		balance = balance + value;
+	}
+	
+	public void showInfo() {
+		System.out.println("NAME: " + surname + 
+							"\nAcct Num: " + acctNumber +
+							"\nBalance: £" + balance);
+	}
+	
+	
+}

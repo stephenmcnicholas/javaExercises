@@ -1,0 +1,66 @@
+21:49:02.876 [main] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+21:49:03.631 [main] INFO  Academy.ValidateNavBar - Closed browser window
+21:49:05.963 [main] INFO  Academy.ValidateTitle - 1 Driver initialised
+21:49:09.843 [main] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+21:49:10.400 [main] INFO  Academy.ValidateTitle - 4. Closed Browser window
+21:49:12.732 [main] INFO  Academy.HomePage - 1. Driver is initialised
+21:49:15.947 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+21:49:17.368 [main] INFO  Academy.HomePage - 3. Navigated to login page
+21:49:17.947 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+21:49:20.215 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+21:49:20.715 [main] INFO  Academy.HomePage - 3. Navigated to login page
+21:49:21.262 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+21:49:21.582 [main] INFO  Academy.HomePage - 5. Closed browser window
+21:49:57.918 [main] INFO  Academy.ValidateNavBar - Initialised Driver
+21:50:01.003 [main] INFO  Academy.ValidateNavBar - Navigated to homepage
+21:50:01.393 [main] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+21:50:02.089 [main] INFO  Academy.ValidateNavBar - Closed browser window
+21:50:04.389 [main] INFO  Academy.ValidateTitle - 1 Driver initialised
+21:50:08.026 [main] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+21:50:08.579 [main] INFO  Academy.ValidateTitle - 4. Closed Browser window
+21:50:11.106 [main] INFO  Academy.HomePage - 1. Driver is initialised
+21:50:15.023 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+21:50:16.403 [main] INFO  Academy.HomePage - 3. Navigated to login page
+21:50:16.971 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+21:50:18.996 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+21:50:19.523 [main] INFO  Academy.HomePage - 3. Navigated to login page
+21:50:20.078 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+21:50:20.388 [main] INFO  Academy.HomePage - 5. Closed browser window
+22:16:01.931 [main] INFO  Academy.ValidateNavBar - Initialised Driver
+22:16:05.084 [main] INFO  Academy.ValidateNavBar - Navigated to homepage
+22:16:05.396 [main] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+22:16:06.152 [main] INFO  Academy.ValidateNavBar - Closed browser window
+22:16:09.201 [main] INFO  Academy.ValidateTitle - 1 Driver initialised
+22:16:11.875 [main] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+22:16:13.455 [main] INFO  Academy.ValidateTitle - 4. Closed Browser window
+22:16:15.946 [main] INFO  Academy.HomePage - 1. Driver is initialised
+22:16:19.038 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+22:16:20.469 [main] INFO  Academy.HomePage - 3. Navigated to login page
+22:16:21.033 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+22:16:23.016 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+22:16:23.506 [main] INFO  Academy.HomePage - 3. Navigated to login page
+22:16:24.057 [main] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+22:16:24.322 [main] INFO  Academy.HomePage - 5. Closed browser window
+22:35:49.152 [TestNG-tests-2] INFO  Academy.ValidateTitle - 1 Driver initialised
+22:35:49.166 [TestNG-tests-3] INFO  Academy.HomePage - 1. Driver is initialised
+22:35:49.374 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Initialised Driver
+22:35:54.897 [TestNG-tests-2] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+22:35:56.280 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+22:35:56.580 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Navigated to homepage
+22:35:56.863 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+22:35:57.840 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Closed browser window
+22:35:58.985 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+22:35:59.126 [TestNG-tests-2] INFO  Academy.ValidateTitle - 4. Closed Browser window
+22:36:00.070 [TestNG-tests-3] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+22:36:02.388 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+22:36:03.022 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+22:36:03.634 [TestNG-tests-3] INFO  Academy.HomePage - 4. Entered username, password and clicked submit
+22:36:03.925 [TestNG-tests-3] INFO  Academy.HomePage - 5. Closed browser window
+23:04:23.962 [main] INFO  Academy.HomePage - 1. Driver is initialised
+23:04:26.677 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+23:04:28.516 [main] INFO  Academy.HomePage - 3. Navigated to login page
+23:04:29.041 [main] INFO  Academy.HomePage - 4. Unrestricted User
+23:04:31.421 [main] INFO  Academy.HomePage - 2. Navigated to homepage
+23:04:31.949 [main] INFO  Academy.HomePage - 3. Navigated to login page
+23:04:32.614 [main] INFO  Academy.HomePage - 4. Restricted User
+23:04:33.601 [main] INFO  Academy.HomePage - 5. Closed browser window

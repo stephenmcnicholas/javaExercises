@@ -1,0 +1,7 @@
+15:17:14.272 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 5. Closed Browser window
+15:17:14.670 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+15:17:15.195 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Unrestricted User
+15:17:17.204 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+15:17:17.521 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+15:17:17.905 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Restricted User
+15:17:18.606 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 5. Closed browser window

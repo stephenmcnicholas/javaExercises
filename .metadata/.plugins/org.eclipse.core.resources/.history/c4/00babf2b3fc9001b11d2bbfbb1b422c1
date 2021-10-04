@@ -1,0 +1,41 @@
+package practice;
+
+import java.util.ArrayList;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		
+		
+		int a[] = {4,5,5,5,4,6,6,9,4};
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+			
+		// challenge: print the number of occurences of each number in the array
+		// e.g. 4 occurs 3 times; 5 occurs 3 times, 6 occurs twice, 9 occurs once.
+		
+		System.out.println(a.length);
+		
+		// create empty arraylist 
+		// traverse through array, check if value exists in arraylist, if not add, giving set of distinct values 
+		// iterate through array, check if value matches the arraylist value, if so add to count 
+		// store value and count in hashmap entry
+		// print keys & values from hashmap 
+		
+		
+		int count = 0;
+		for(int i = 0; i<a.length; i++) {
+			if(!al.contains(a[i])) {
+				al.add(a[i]);
+				for(int j = i+1; j<a.length; j++) {
+					if(a[i]==a[j]){
+						count++;
+					}
+				}
+				System.out.println(count);
+			}
+			
+		}
+	}
+
+}

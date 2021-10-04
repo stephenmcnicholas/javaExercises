@@ -1,0 +1,45 @@
+package practice;
+
+import java.util.ArrayList;
+
+public class JavaStreamsDemo {
+
+	public static void main(String[] args) {
+
+		// Java Streams used to optimise code. 
+		// solve a challenge below using two methods. traditional method and streams method to demonstrate the purpose of streams
+		
+		// challenge: count number of names starting with letter A in the list
+		
+		//first create the arraylist and populate
+		ArrayList<String> names = new ArrayList<String>();
+		
+		names.add("Adam");
+		names.add("Stephen");
+		names.add("Finnbar");
+		names.add("Alex");
+		names.add("Elvis");
+		names.add("Aaron");
+		
+		// option 1: with for loop and if condition, then print count
+		
+		int counter = 0;
+		for(int i = 0; i < names.size(); i++) {
+			String name = names.get(i);
+			if(name.startsWith("A")) 
+				counter++;
+		}
+		System.out.println("There are " + counter + " names beginning with 'A'");
+
+		
+		// option 2: 
+		// 1. create stream (names.stream()) 
+		// 2. then perform intermediate operation to transform into another stream (filter(s->s.startswith("A"))
+		// 3. perform terminal operation on final stream to get result (count() number of streams in the intermediate operation)
+		
+		Long counter2 = names.stream().filter(s->s.startsWith("A")).count();
+		System.out.println("There are " + counter2 + " names beginning with 'A'");
+		
+	}
+
+}

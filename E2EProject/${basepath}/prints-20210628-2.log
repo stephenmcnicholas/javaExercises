@@ -1,0 +1,62 @@
+11:27:21.216 [main] INFO  Academy.ValidateNavBar - Initialised Driver
+11:27:25.228 [main] INFO  Academy.ValidateNavBar - Navigated to homepage
+11:27:25.390 [main] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+11:27:25.570 [main] INFO  Academy.ValidateNavBar - Closed browser window
+20:18:41.094 [TestNG-tests-2] INFO  Academy.ValidateTitle - 1 Driver initialised
+20:18:41.122 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Initialised Driver
+20:18:41.386 [TestNG-tests-3] INFO  Academy.HomePage - 1. Driver is initialised
+20:18:48.658 [TestNG-tests-2] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+20:18:49.277 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:18:49.606 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Navigated to homepage
+20:18:49.838 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+20:18:50.476 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Closed browser window
+20:18:50.629 [TestNG-tests-2] INFO  Academy.ValidateTitle - 4. Closed Browser window
+20:18:51.460 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:18:52.338 [TestNG-tests-3] INFO  Academy.HomePage - 4. Unrestricted User
+20:18:54.854 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:18:55.296 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:18:55.758 [TestNG-tests-3] INFO  Academy.HomePage - 4. Restricted User
+20:18:56.567 [TestNG-tests-3] INFO  Academy.HomePage - 5. Closed browser window
+20:19:19.226 [TestNG-tests-3] INFO  Academy.HomePage - 1. Driver is initialised
+20:19:19.255 [TestNG-tests-2] INFO  Academy.ValidateTitle - 1 Driver initialised
+20:19:19.424 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Initialised Driver
+20:19:25.060 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:19:25.104 [TestNG-tests-2] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+20:19:25.509 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Navigated to homepage
+20:19:25.673 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+20:19:26.413 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Closed browser window
+20:19:26.642 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:19:27.370 [TestNG-tests-3] INFO  Academy.HomePage - 4. Unrestricted User
+20:19:27.606 [TestNG-tests-2] INFO  Academy.ValidateTitle - 4. Closed Browser window
+20:19:29.743 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:19:30.192 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:19:30.674 [TestNG-tests-3] INFO  Academy.HomePage - 4. Restricted User
+20:19:31.454 [TestNG-tests-3] INFO  Academy.HomePage - 5. Closed browser window
+20:28:11.737 [TestNG-tests-3] INFO  Academy.HomePage - 1. Driver is initialised
+20:28:11.848 [TestNG-tests-2] INFO  Academy.ValidateTitle - 1 Driver initialised
+20:28:11.855 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Initialised Driver
+20:28:16.385 [TestNG-tests-2] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+20:28:17.193 [TestNG-tests-2] INFO  Academy.ValidateTitle - 4. Closed Browser window
+20:28:17.392 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Navigated to homepage
+20:28:17.636 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+20:28:19.548 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:28:20.149 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:28:22.685 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Closed browser window
+20:32:42.556 [TestNG-tests-3] INFO  Academy.HomePage - 1. Driver is initialised
+20:32:42.997 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Initialised Driver
+20:32:46.275 [TestNG-tests-2] INFO  Academy.ValidateTitle - 1 Driver initialised
+20:32:49.342 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:32:51.737 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:32:52.432 [TestNG-tests-3] INFO  Academy.HomePage - 4. Unrestricted User
+20:32:53.276 [TestNG-tests-2] INFO  Academy.ValidateTitle - 2 Navigated to homepage
+20:32:55.992 [TestNG-tests-3] INFO  Academy.HomePage - 2. Navigated to homepage
+20:32:56.191 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Navigated to homepage
+20:32:56.433 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Validated navigation bar is present
+20:32:56.533 [TestNG-tests-3] INFO  Academy.HomePage - 3. Navigated to login page
+20:32:57.090 [TestNG-tests-3] INFO  Academy.HomePage - 4. Restricted User
+20:32:59.169 [TestNG-tests-2] INFO  Academy.ValidateTitle - 4. Closed Browser window
+20:33:00.673 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Closed browser window
+20:33:00.964 [TestNG-tests-3] INFO  Academy.HomePage - 5. Closed browser window
+20:37:13.277 [TestNG-tests-2] INFO  Academy.ValidateTitle - 1 Driver initialised
+20:37:13.301 [TestNG-tests-3] INFO  Academy.HomePage - 1. Driver is initialised
+20:37:18.593 [TestNG-tests-1] INFO  Academy.ValidateNavBar - Initialised Driver

@@ -1,0 +1,10 @@
+io.cucumber.junit.UndefinedStepException: The step 'I enter stephen@email.com and pass123 and login' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I enter stephen@email.com and pass123 and login")
+public void i_enter_stephen_email_com_and_pass123_and_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

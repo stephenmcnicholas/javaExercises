@@ -1,0 +1,17 @@
+package banking;
+
+public abstract class Account implements IBaseRate{
+
+	private String firstName;
+	private String surname;
+	private String SSN;
+	private String accountType;
+	private float balance;
+	
+	public Account() {
+		System.out.print("New Acct: ");
+	}
+	
+	
+	
+}

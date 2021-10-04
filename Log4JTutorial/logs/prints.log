@@ -1,0 +1,5 @@
+log:
+21:26:35.559 [main] ERROR alpha.Log4jDemo - Object is not present
+21:27:25.614 [main] DEBUG alpha.Log4jDemo - I am debugging
+21:27:25.617 [main] ERROR alpha.Log4jDemo - Object is not present
+21:27:25.617 [main] INFO  alpha.Log4jDemo - This is just info

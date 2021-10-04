@@ -1,0 +1,13 @@
+package banking;
+
+public class Checking extends Account{
+	
+	private int debitCardNumber;
+	private int debitCardPIN;
+	
+	
+	public Checking(String name, String sSN, float openingDeposit) {
+		super(name, sSN, openingDeposit);
+		System.out.println("new checking acct for: ");
+	}
+}

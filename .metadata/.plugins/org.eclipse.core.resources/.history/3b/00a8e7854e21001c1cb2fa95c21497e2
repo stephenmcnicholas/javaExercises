@@ -1,0 +1,26 @@
+package banking;
+
+public class BankingApp {
+
+	public static void main(String[] args) {
+		
+		Checking chk1 = new Checking("Stephen McNicholas" , "123456789",1500);
+		Savings sav1 = new Savings("Finnbar McNicholas", "981765411", 10000);
+		
+		chk1.showInfo();
+		sav1.showInfo();
+		// read CSV file
+		
+		// create new accts based on that data
+		chk1.deposit(500);
+		chk1.transfer("Kat", 250);
+		chk1.withdrawal(200);
+
+		sav1.deposit(1000);
+		sav1.transfer("Brokerage", 2000);
+		sav1.withdrawal(8000);
+
+		
+	}
+
+}

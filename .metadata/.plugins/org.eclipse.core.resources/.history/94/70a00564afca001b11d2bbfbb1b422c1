@@ -1,0 +1,48 @@
+package practice;
+
+import java.awt.Window;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaStreamsPractice {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\stephen.mcnicholas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();  
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
+
+		// use java streams to verify if the items in the table on the "offers" page (accessed via Top Deals link) are ordered alphabetically when the header row is clicked
+		
+		// click column
+		// capture web elements from column into a listA
+		// capture text from all elements
+		// sort on original listA to make listB
+		// compare listA to listB (i.e. listA should be already sorted)
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//tr/th[1]")).click();
+		List<WebElement> listA = driver.findElements(By.xpath("//tbody/tr/td[1]"));
+		
+		System.out.println(listA);
+		
+		List<String> listB = listA.stream().map(s->s.getText()).sorted().collect(Collectors.toList());
+		List<String> listC = listA.stream().map(s->s.getText()).sorted().collect(Collectors.toList());
+		System.out.println(listB);
+		System.out.println(listC);
+		
+		
+		Thread.sleep(3000);
+		driver.quit();
+		
+		
+	}
+
+}

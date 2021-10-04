@@ -1,0 +1,7 @@
+package banking;
+
+public class Checking extends Account{
+	public Checking() {
+		System.out.println("new checking acct");
+	}
+}

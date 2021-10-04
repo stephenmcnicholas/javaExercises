@@ -1,0 +1,31 @@
+package collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapStuff {
+
+	public static void main(String[] args) {
+		//hashmap is made up of key value pairs
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+
+		map.put(5, "five");
+		map.put(0, "zero");
+		map.put(2, "two");
+		map.put(1, "one");
+		map.put(3, "three");
+		
+		System.out.println(map.get(4)); // returns null, as there is no entry with key 4
+		System.out.println(map.get(1)); // returns "one" - the value of the corresponding key 1
+		
+		// you can use this loop syntax to iterate through all key/value pairs in hashmap
+		for(Map.Entry<Integer, String> entry: map.entrySet()) {
+			int key = entry.getKey();
+			String value = entry.getValue();
+			System.out.println(key + " : " + value);
+		}
+		
+		
+	}
+
+}

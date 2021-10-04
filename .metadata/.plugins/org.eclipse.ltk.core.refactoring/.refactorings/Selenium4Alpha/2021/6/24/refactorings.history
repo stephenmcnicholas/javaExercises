@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;selenium4Alpha.java&apos; to &apos;Selenium4Alpha/src/selenium4Alpha&apos;&#x0D;&#x0A;- Original project: &apos;Selenium4Alpha&apos;&#x0D;&#x0A;- Destination element: &apos;Selenium4Alpha/src/selenium4Alpha&apos;&#x0D;&#x0A;- Original element: &apos;selenium4Alpha.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;selenium4Alpha" element1="/src&lt;{selenium4Alpha.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1623669716117" units="1" version="1.0"/>
+</session>

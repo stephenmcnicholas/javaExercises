@@ -1,0 +1,28 @@
+package banking;
+
+public class Savings extends Account {
+	
+	private int safetyDepBoxNumber;
+	private int safetyDepBoxPIN;
+	
+	public Savings(String name, String sSN, float openingDeposit) {
+		super(name, sSN, openingDeposit);
+		acctNumber = "1" + acctNumber;
+	}
+	
+	
+	private void safetyDepositBox() {
+		safetyDepBoxNumber = (int) (Math.random() * Math.pow(10, 3));
+		safetyDepBoxPIN = (int) (Math.random() * 10000);
+	}
+	
+	public void showInfo() {
+		super.showInfo();
+		System.out.println("Account Type: SAVINGS");
+		System.out.println(" Account Features: " + 
+							"\n  Safety Deposit Box Number: " + safetyDepBoxNumber + 
+							"\n  Safety Deposit Box PIN: " + safetyDepBoxPIN);
+	}
+		
+	
+}

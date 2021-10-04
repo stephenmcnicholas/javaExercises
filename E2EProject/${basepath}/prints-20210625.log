@@ -1,0 +1,7 @@
+13:25:29.507 [main] INFO  Academy.HomePage - Navigated to homepage
+13:25:30.116 [main] INFO  Academy.HomePage - Navigated to login page
+13:25:30.711 [main] INFO  Academy.HomePage - Entered username, password and clicked submit
+13:25:30.855 [main] INFO  Academy.HomePage - Closed browser window
+13:26:06.945 [main] INFO  Academy.HomePage - Driver is initialised
+13:26:10.828 [main] INFO  Academy.HomePage - Navigated to homepage
+13:26:12.277 [main] INFO  Academy.HomePage - Navigated to login page

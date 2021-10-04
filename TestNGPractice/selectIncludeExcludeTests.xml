@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="test.Listeners" />
+</listeners>
+
+<parameter name="URL" value = "qaclickacademy.com" /> <!--  parameter defined directly below suite can be applied to all tests in the suite -->
+  <test thread-count="5" name="GermanicLanguages">
+  <parameter name="URL" value = "amazon.de" /> <!--  parameter defined directly below suite can be applied only to the tests in this test tag -->
+  <parameter name="username" value = "stephen.mcnicholas" />
+    <classes>
+      <class name="test.English"/>
+      <class name="test.German">
+<!--       <methods> -->
+<!--    	  		<include name = "Question.*"/> -->
+<!--    	  </methods> -->
+   	 </class> 
+    </classes>
+  </test> 
+  <test name ="RomanceLanguages">
+  <classes>
+   	  <class name="test.Spanish">
+   	  	<!-- <methods>
+   	  		<exclude name = "Greeting.*"/>
+   	  	</methods> -->
+   	  </class>
+   	  <class name="test.French"/>
+  </classes>
+  </test>
+</suite> 

@@ -1,0 +1,51 @@
+13:30:42.679 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+13:30:43.931 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Navigated to homepage
+13:30:44.157 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Validated navigation bar is present
+13:30:44.783 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+13:30:45.154 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Closed browser window
+13:30:45.858 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Unrestricted User
+13:30:47.577 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 2 Navigated to homepage
+13:30:47.640 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 4. Validated Header Text on Home Page
+13:30:50.239 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 5. Closed Browser window
+13:30:50.824 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+13:30:51.495 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+13:30:52.047 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Restricted User
+13:30:52.991 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 5. Closed browser window
+13:31:34.718 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 1. Driver is initialised
+13:31:34.718 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Initialised Driver
+13:31:34.718 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 1 Driver initialised
+13:31:41.109 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Navigated to homepage
+13:31:41.265 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Validated navigation bar is present
+13:31:41.817 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 2 Navigated to homepage
+13:31:41.891 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 4. Validated Header Text on Home Page
+13:31:43.386 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+13:31:44.099 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 5. Closed Browser window
+13:31:45.078 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+13:31:45.783 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Unrestricted User
+13:31:47.039 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Closed browser window
+13:31:48.132 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+13:31:48.609 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+13:31:49.102 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Restricted User
+13:31:49.990 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 5. Closed browser window
+13:34:29.475 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Initialised Driver
+13:34:29.475 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 1 Driver initialised
+13:34:29.524 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 1. Driver is initialised
+13:34:34.169 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Navigated to homepage
+13:34:34.284 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Validated navigation bar is present
+13:34:34.486 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 2 Navigated to homepage
+13:34:34.533 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 4. Validated Header Text on Home Page
+13:34:34.807 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Closed browser window
+13:34:35.405 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+13:34:35.422 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 5. Closed Browser window
+13:34:37.056 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+13:34:37.414 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Unrestricted User
+13:34:39.279 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 2. Navigated to homepage
+13:34:39.569 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 3. Navigated to login page
+13:34:39.950 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 4. Restricted User
+13:34:40.568 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 5. Closed browser window
+14:49:33.556 [TestNG-tests-3] INFO  Automation.E2EProjectTwo.HomePage - 1. Driver is initialised
+14:49:33.556 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Initialised Driver
+14:49:33.653 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 1 Driver initialised
+14:49:38.917 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 2 Navigated to homepage
+14:49:38.973 [TestNG-tests-1] INFO  Automation.E2EProjectTwo.ValidateNavBar - Navigated to homepage
+14:49:39.080 [TestNG-tests-2] INFO  Automation.E2EProjectTwo.ValidateTitle - 4. Validated Header Text on Home Page

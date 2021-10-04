@@ -1,0 +1,48 @@
+package emailApp;
+
+public class Email {
+	
+	private String firstName;
+	private String lastName;
+	private String dept;
+	private String company;
+	private String password;
+	private int mailboxCapacity;
+	private String altEmailAddress;
+	
+	// Constructor to receive first and last names, and apply to instance variables
+	public Email(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		System.out.println("Email created for: " + this.firstName + " " + this.lastName);
+		// call a private method ask for dept		
+		
+	}
+
+	private String setDept() {
+		System.out.println("Enter the Department: \n1 for Sales, \n2 for Development, \n3 for Accounting, \n0 for None]");
+	}
+	
+	
+	
+	// create email address with syntax firstname.lastname@dept.company.com
+	
+	// determine the dept (e.g. sales, development, accounting), or leave blank
+	
+	// generate random string for password
+	
+	// method to set password
+	
+	// method to set mailbox capacity
+	
+	// method to set alt email address
+	
+	// method to get name
+	
+	// method to get email address
+	
+	// method to get email capacity
+	
+	
+	
+}

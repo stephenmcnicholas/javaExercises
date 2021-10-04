@@ -1,0 +1,22 @@
+package practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaStreamsPractice {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\stephen.mcnicholas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();  
+		driver.get("https://rahulshettyacademy.com/seleniumPractise");
+
+		// use java streams to verify if the items in the table on the "offers" page (accessed via Top Deals link) are ordered alphabetically when the header row is clicked
+		
+		driver.findElement(By.cssSelector("a[href='#/offers']")).click();
+
+		
+	}
+
+}
